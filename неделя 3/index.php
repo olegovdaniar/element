@@ -52,7 +52,7 @@ echo '<br>';
 
 echo 'Задание №5' . '<br>';
 
-$birthday_human = '1995-05-20'; //Дата рождения
-$age = floor( ( time() - strtotime($birthday_human) ) / (60 * 60 * 24 * 365.25) ); //Формула
-echo $age; //27
+$birthday_human = '1995-05-20'; 
+$age = floor( ( time() - strtotime($birthday_human) ) / (60 * 60 * 24 * 365.25) ); 
+echo $age; 
 ?>
